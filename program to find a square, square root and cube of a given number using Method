@@ -19,7 +19,7 @@ public class SquareMethod
   squareroot=Math.sqrt(no);
   return squareroot;
  }
- public static void main (String[] args) 
+ public static void main(String[] args) 
  {
   double number,s,c;  
   System.out.println("Enter the number:");
