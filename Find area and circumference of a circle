@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+public class AreaCircumferenceCircle
+{
+  public static void main (String[] args) 
+  {
+    double r,circumference,area;
+    System.out.println("Enter the radius of circle:");
+    Scanner s=new Scanner(System.in);
+    r=s.nextInt();
+    area=3.142 *r*r;
+    circumference=2*3.142*r;
+    System.out.println("area of circle:"+area);
+    System.out.println("Circumference of circle:"+circumference);
+  }
+}
