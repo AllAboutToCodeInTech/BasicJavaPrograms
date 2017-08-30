@@ -1,0 +1,35 @@
+import java.util.*;
+public class SquareMethod
+{
+  public static double Square(double no)
+  {
+   double square;
+   square = no*no;
+   return square;
+  }
+  public static double Cube(double no)
+ {
+  double cube;
+  cube= no*no*no;
+  return cube;
+ }
+ public static double Squareroot(double no)
+ {
+  double squareroot;
+  squareroot=Math.sqrt(no);
+  return squareroot;
+ }
+ public static void main (String[] args) 
+ {
+  double number,s,c;  
+  System.out.println("Enter the number:");
+  Scanner sc=new Scanner(System.in);
+  number = sc.nextDouble();
+
+  s=Square(number);
+  c=Cube(number);
+  System.out.println("Square of number:"+s);
+  System.out.println("Cube of number:"+c);
+  System.out.println("Square root of number:"+Squareroot(number));
+ }
+}
