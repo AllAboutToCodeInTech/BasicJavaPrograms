@@ -2,14 +2,15 @@ import java.io.*;
 import java.util.*;
 public class AreaCircumferenceCircle
 {
-  public static void main (String[] args) 
+  public static void main(String[] args) 
   {
     double r,circumference,area;
+    final double pi=3.142;
     System.out.println("Enter the radius of circle:");
     Scanner s=new Scanner(System.in);
-    r=s.nextInt();
-    area=3.142 *r*r;
-    circumference=2*3.142*r;
+    r=s.nextDouble();
+    area=pi*r*r;
+    circumference=2*pi*r;
     System.out.println("area of circle:"+area);
     System.out.println("Circumference of circle:"+circumference);
   }
