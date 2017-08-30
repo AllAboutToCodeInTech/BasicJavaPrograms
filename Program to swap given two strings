@@ -1,0 +1,22 @@
+import java.util.*;
+public class SwapString
+{
+  public static void main(String[] args) 
+{
+ String s1,s2,temp;
+ System.out.println("Enter a string s1:");
+ Scanner sc=newScanner(System.in);
+ s1 = sc.next();
+ System.out.println("Enter a strings2:");
+ s2 = sc.next();
+ System.out.println("Before Swapping :");
+ System.out.println("s1 : "+s1);
+ System.out.println("s2 : "+s2);
+ temp = s1;
+ s1=s2;
+ s2=temp;
+ System.out.println("After Swapping :");
+ System.out.println("s1 : "+s1);
+ System.out.println("s2 : "+s2);
+}
+}
